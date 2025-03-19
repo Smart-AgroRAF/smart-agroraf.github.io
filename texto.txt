@@ -1,0 +1,12 @@
+conteudo:
+    titulo ->  GT-Smart AgroRAF. 
+    subtitulo -> Smart Contracts para Rastreamento da Agricultura Familiar
+    o que ->
+    resumo do projeto ->
+    pessoas do grupo 
+        bolsista-> nome, cargo
+        voluntarios ->
+    quem? pessoas bolsistas (foto e nome, professor instituicação, aluno curso) e depois pessoas voluntárias
+    Onde? Unipampa, IFRS, PUC, RNP
+
+    Tecnologias
