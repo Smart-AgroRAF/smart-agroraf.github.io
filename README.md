@@ -28,7 +28,7 @@ Lorem yplisun,Lorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunL
 </div>
 <h2>Voluntários: </h2>
 <p>
-Fábio Righi
+Fábio Righi, Uéslei Bervanger Brandt
 </p>
 <h2>Tecnologias: </h2>
 <table style="width: 100%; height: 100%; text-align: center; vertical-align: middle;">
@@ -36,3 +36,24 @@ Fábio Righi
      <td><img src="https://skillicons.dev/icons?i=laravel,php,mysql"/></td>
  </tr>
 </table>
+
+<h2>Contatos: </h2>
+
+<a href="mailto:diegokreutz@unipampa.edu.br">
+    Diego Kreutz
+</a>
+<a href="mailto:rodrigomansilha@unipampa.edu.br">
+    Rodrigo Mansilha
+</a>
+<a href="mailto:roben@lunardi.inf.br">
+    Roben Lunardi
+</a>
+<a href="mailto:rafaelnogueira.aluno@unipampa.edu.br">
+    Rafael Nogueira
+</a>
+<a href="mailto:fanhenrique@gmail.com">
+    Henrique Fan
+</a>
+<a href="mailto:bneves.dev@gmail.com">
+    Bruno Neves
+</a>

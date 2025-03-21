@@ -1,46 +1,103 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Proraf</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="img/image.png" alt="" width="160" height="90" class="d-inline-block align-text-top">
-            </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Objetivos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Sobre nós</a>
-              </li>
-            </ul>
-          </div>
+    <title>GT-Smart AgroRAF</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        section {
+            min-height: 30vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">GT-Smart AgroRAF</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resumo">Resumo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#equipe">Equipe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#instituicoes">Instituições</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#voluntarios">Voluntários</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tecnologias">Tecnologias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contatos">Contatos</a></li>
+                </ul>
+            </div>
         </div>
-      </nav>
-      <main>
-        <section>
-            <h1>Home!</h1>
+    </nav>
+    
+    <header class="text-center bg-primary text-white py-5 mt-5">
+        <h1 >GT-Smart AgroRAF</h1>
+        <h2>Smart Contracts para Rastreamento da Agricultura Familiar</h2>
+    </header>
+    
+    <main class="container my-5">
+        <section id="sobre" class="mb-5">
+            <h2 class="text-center">O que é:</h2>
+            <p>Lorem yplisun, Lorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisun, Lorem yplisunLorem yplisunLorem yplisun, Lorem yplisunLorem yplisunLorem yplisun, Lorem yplisun.</p>
         </section>
-        <section>
-            <h1>Objetivos!</h1>
+        
+        <section id="resumo" class="mb-5">
+            <h2 class="text-center">Resumo do Projeto:</h2>
+            <p>Lorem yplisun, Lorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisun, Lorem yplisunLorem yplisunLorem yplisun, Lorem yplisunLorem yplisunLorem yplisun, Lorem yplisun.</p>
         </section>
-        <section>
-            <h1>Sobre nós!</h1>
+        
+        <section id="equipe" class="mt-5 text-center py-5">
+            <h2>Equipe:</h2>
+            <img src="./img/equipe-dev.png" alt="Equipe de desenvolvimento do projeto" class="img-fluid">
         </section>
-      </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+        
+        <section id="instituicoes" class="mb-5 text-center">
+            <h2>Instituições:</h2>
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
+                    <img src="./img/Unipampa.png" alt="Unipampa" class="img-fluid" style="max-width: 150px;">
+                </div>
+                <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
+                    <img src="./img/if.png" alt="IF" class="img-fluid" style="max-width: 150px;">
+                </div>
+                <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
+                    <img src="./img/puc-rs.png" alt="PUC-RS" class="img-fluid" style="max-width: 150px;">
+                </div>
+                <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
+                    <img src="./img/rnp.png" alt="RNP" class="img-fluid" style="max-width: 150px;">
+                </div>
+            </div>
+        </section>
+        
+        <div id="voluntarios" class="mb-5">
+            <h2>Voluntários:</h2>
+            <p>Fábio Righi</p>
+        </div>
+        
+        <div id="tecnologias" class="mb-5 text-center">
+            <h2>Tecnologias:</h2>
+            <img src="https://skillicons.dev/icons?i=laravel,php,mysql" class="img-fluid">
+        </div>
+    </main>
+    
+    <footer id="contatos" class="text-center bg-dark text-white py-3">
+        <h2>Contatos:</h2>
+        <p>
+            <a href="mailto:diegokreutz@unipampa.edu.br" class="text-white d-block">Diego Kreutz</a>
+            <a href="mailto:rodrigomansilha@unipampa.edu.br" class="text-white d-block">Rodrigo Mansilha</a>
+            <a href="mailto:roben@lunardi.inf.br" class="text-white d-block">Roben Lunardi</a>
+            <a href="mailto:rafaelnogueira.aluno@unipampa.edu.br" class="text-white d-block">Rafael Nogueira</a>
+            <a href="mailto:fanhenrique@gmail.com" class="text-white d-block">Henrique Fan</a>
+            <a href="mailto:" class="text-white d-block">Bruno Neves</a>
+        </p>
+        <p>&copy; 2025 GT-Smart AgroRAF. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
