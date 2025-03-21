@@ -12,10 +12,22 @@
             flex-direction: column;
             justify-content: center;
         }
+        .gradiente {
+            background: linear-gradient(to right, #662D91, #0D6EFD);
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .fade-in.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top gradiente">
         <div class="container">
             <a class="navbar-brand" href="#">GT-Smart AgroRAF</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,33 +35,34 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
                     <li class="nav-item"><a class="nav-link" href="#resumo">Resumo</a></li>
                     <li class="nav-item"><a class="nav-link" href="#equipe">Equipe</a></li>
                     <li class="nav-item"><a class="nav-link" href="#instituicoes">Instituições</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#voluntarios">Voluntários</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#tecnologias">Tecnologias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#arquitetura">Arquitetura</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contatos">Contatos</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     
-    <header class="text-center bg-primary text-white py-5 mt-5">
+    <header class="text-center bg-primary text-white py-5 mt-5 gradiente">
         <h1 >GT-Smart AgroRAF</h1>
         <h2>Smart Contracts para Rastreamento da Agricultura Familiar</h2>
     </header>
     
     <main class="container my-5">
-        <section id="sobre" class="mb-5">
-            <h2 class="text-center">O que é:</h2>
-            <p>Lorem yplisun, Lorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisun, Lorem yplisunLorem yplisunLorem yplisun, Lorem yplisunLorem yplisunLorem yplisun, Lorem yplisun.</p>
+        <section id="resumo" class="mb-5 ">
+            <h2 class="text-center">Resumo:</h2>
+            <p>
+
+              O nosso objetivo geral é desenvolver uma solução de rastreamento de produtos da agricultura familiar baseada em blockchains e tokens em acordo com a INC 02/2018 para o Proraf. Delineamos três objetivos específicos:
+              Projeto de contratos inteligentes para o Proraf. Projetar os contratos inteligentes considerando as necessidades de tokenização e rastreabilidade.
+              Implementação de contratos inteligentes no Proraf. Acoplar o sistema de informação do Proraf à blockchain. Esta etapa envolve atividades de análise, projeto, implementação e testes de interface de usuário conectadas ao Hyperledger Besu disponibilizado na infraestrutura desenvolvida no contexto do projeto Ilíada.
+              Teste de blockchains para os contratos inteligentes do Proraf. Planejar, executar e analisar resultados de avaliação sistemática de alternativas de blockchain como substrato para a solução proposta. São previstas avaliação das redes Hyperledger Besu e Ethereum considerando métricas de custo, tempo de inserção,  taxa de transações por segundo (TPS) e usabilidade. Os resultados fornecerão subsídios técnicos e econômicos concretos para avaliar a viabilidade prática e a escalabilidade da solução, fundamentando um estudo econômico para um futuro MVP.[]              
+
+            </p>
         </section>
-        
-        <section id="resumo" class="mb-5">
-            <h2 class="text-center">Resumo do Projeto:</h2>
-            <p>Lorem yplisun, Lorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisun, Lorem yplisunLorem yplisunLorem yplisun, Lorem yplisunLorem yplisunLorem yplisun, Lorem yplisun.</p>
-        </section>
+      
         
         <section id="equipe" class="mt-5 text-center py-5">
             <h2>Equipe:</h2>
@@ -73,16 +86,13 @@
                 </div>
             </div>
         </section>
+        <section id="arquitetura" class="mt-5 text-center py-5">
+          <h2 class="mb-5">Arquitetura:</h2>
+          <div class="justify-content-center align-items-center">
+            <img src="./img/arquitetura.png" alt="Arquitetura do projeto"  class="img-fluid" style="max-width:1000px">
+          </div>
+        </section>
         
-        <div id="voluntarios" class="mb-5">
-            <h2>Voluntários:</h2>
-            <p>Fábio Righi</p>
-        </div>
-        
-        <div id="tecnologias" class="mb-5 text-center">
-            <h2>Tecnologias:</h2>
-            <img src="https://skillicons.dev/icons?i=laravel,php,mysql" class="img-fluid">
-        </div>
     </main>
     
     <footer id="contatos" class="text-center bg-dark text-white py-3">

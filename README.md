@@ -5,14 +5,16 @@
   Smart Contracts para Rastreamento da Agricultura Familiar
 </h2>
 <hr/>
-<h1 align="left">O que é:</h1>
+<h1 align="left">Objetivo:</h1>
 <p>
-Lorem yplisun,Lorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisun, Lorem yplisunLorem yplisunLorem yplisun , Lorem yplisunLorem yplisunLorem yplisun, Lorem yplisun 
+
+O nosso objetivo geral é desenvolver uma solução de rastreamento de produtos da agricultura familiar baseada em blockchains e tokens em acordo com a INC 02/2018 para o Proraf. Delineamos três objetivos específicos:
+Projeto de contratos inteligentes para o Proraf. Projetar os contratos inteligentes considerando as necessidades de tokenização e rastreabilidade.
+Implementação de contratos inteligentes no Proraf. Acoplar o sistema de informação do Proraf à blockchain. Esta etapa envolve atividades de análise, projeto, implementação e testes de interface de usuário conectadas ao Hyperledger Besu disponibilizado na infraestrutura desenvolvida no contexto do projeto Ilíada.
+Teste de blockchains para os contratos inteligentes do Proraf. Planejar, executar e analisar resultados de avaliação sistemática de alternativas de blockchain como substrato para a solução proposta. São previstas avaliação das redes Hyperledger Besu e Ethereum considerando métricas de custo, tempo de inserção,  taxa de transações por segundo (TPS) e usabilidade. Os resultados fornecerão subsídios técnicos e econômicos concretos para avaliar a viabilidade prática e a escalabilidade da solução, fundamentando um estudo econômico para um futuro MVP.
+
 </p>
-<h1 align="left">Resumo do Projeto:</h1>
-<p>
-Lorem yplisun,Lorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisun, Lorem yplisunLorem yplisunLorem yplisun , Lorem yplisunLorem yplisunLorem yplisun, Lorem yplisun 
-</p>
+
 <h2>Equipe: </h2>
 <img src="./img/equipe-dev.png" alt="Equipe de desenvolvimento do projeto">
 <h2>Instituições: </h2>
@@ -26,34 +28,32 @@ Lorem yplisun,Lorem yplisunLorem yplisunLorem yplisunLorem yplisunLorem yplisunL
     </tr>
 </table>
 </div>
-<h2>Voluntários: </h2>
-<p>
-Fábio Righi, Uéslei Bervanger Brandt
-</p>
-<h2>Tecnologias: </h2>
-<table style="width: 100%; height: 100%; text-align: center; vertical-align: middle;">
- <tr>
-     <td><img src="https://skillicons.dev/icons?i=laravel,php,mysql"/></td>
- </tr>
-</table>
+<h2>Arquitetura: </h2>
 
 <h2>Contatos: </h2>
+<img src="./img/arquitetura.png" alt="Arquitetura do projeto">
 
 <a href="mailto:diegokreutz@unipampa.edu.br">
     Diego Kreutz
 </a>
+<br>
 <a href="mailto:rodrigomansilha@unipampa.edu.br">
     Rodrigo Mansilha
 </a>
+<br>
 <a href="mailto:roben@lunardi.inf.br">
     Roben Lunardi
 </a>
+<br>
 <a href="mailto:rafaelnogueira.aluno@unipampa.edu.br">
     Rafael Nogueira
 </a>
+<br>
 <a href="mailto:fanhenrique@gmail.com">
     Henrique Fan
 </a>
+<br>
 <a href="mailto:bneves.dev@gmail.com">
     Bruno Neves
 </a>
+<br>
