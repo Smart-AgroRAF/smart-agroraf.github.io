@@ -15,14 +15,19 @@
         .gradiente {
             background: linear-gradient(to right, #662D91, #0D6EFD);
         }
-        .fade-in {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        .institution {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
         }
-        .fade-in.show {
-            opacity: 1;
-            transform: translateY(0);
+        .institution img {
+            transition: all 0.3s ease;
+            display: block;
+            width: 180px;
+        }
+        .institution:hover img {
+            filter: brightness(70%);
+            cursor: pointer;
         }
     </style>
 </head>
@@ -46,12 +51,12 @@
     </nav>
     
     <header class="text-center bg-primary text-white py-5 mt-5 gradiente">
-        <h1 >GT-Smart AgroRAF</h1>
-        <h2>Smart Contracts para Rastreamento da Agricultura Familiar</h2>
+        <h1 id="resumo">GT-Smart AgroRAF</h1>
+        <h2 >Smart Contracts para Rastreamento da Agricultura Familiar</h2>
     </header>
     
-    <main class="container my-5">
-        <section id="resumo" class="mb-5 ">
+    <main class="container my-5" >
+        <section  class="mb-5 ">
             <h2 class="text-center">Resumo:</h2>
             <p>
 
@@ -72,22 +77,40 @@
         </section>
         
         <section id="instituicoes" class="mb-5 text-center">
-            <h2>Instituições:</h2>
-            <div class="row justify-content-center align-items-center text-center">
-                <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
-                    <img src="./img/Unipampa.png" alt="Unipampa" class="img-fluid" style="max-width: 150px;">
-                </div>
-                <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
-                    <img src="./img/if.png" alt="IF" class="img-fluid" style="max-width: 150px;">
-                </div>
-                <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
-                    <img src="./img/puc-rs.png" alt="PUC-RS" class="img-fluid" style="max-width: 150px;">
-                </div>
-                <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
-                    <img src="./img/rnp.png" alt="RNP" class="img-fluid" style="max-width: 150px;">
-                </div>
-            </div>
-        </section>
+          <h2>Instituições:</h2>
+          <div class="row justify-content-center align-items-center text-center">
+              <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
+                  <div class="institution">
+                    <a target="_blank" href="https://unipampa.edu.br/portal/">
+                      <img src="./img/Unipampa.png" alt="Unipampa" class="img-fluid" style="max-width: 150px;">
+                    </a>
+                      
+                  </div>
+              </div>
+              <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
+                  <div class="institution">
+                    <a target="_blank" href="https://ifrs.edu.br/">
+                      <img src="./img/if.png" alt="IF" class="img-fluid" style="max-width: 150px;">
+                    </a>
+                  </div>
+              </div>
+              <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
+                  <div class="institution">
+                    <a target="_blank" href="https://online.pucrs.br/">
+                      <img src="./img/puc-rs.png" alt="PUC-RS" class="img-fluid" style="max-width: 150px;">
+                    </a>
+                      
+                  </div>
+              </div>
+              <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
+                  <div class="institution">
+                    <a target="_blank" href="https://www.rnp.br/pesquisa-e-desenvolvimento/programa-de-bolsas/">
+                      <img src="./img/rnp.png" alt="RNP" class="img-fluid" style="max-width: 150px;">
+                    </a>
+                  </div>
+              </div>
+          </div>
+      </section>
         <section id="arquitetura" class="mt-5 text-center py-5">
           <h2 class="mb-5">Arquitetura:</h2>
           <div class="justify-content-center align-items-center">
