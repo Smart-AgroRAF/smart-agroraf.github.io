@@ -5,7 +5,7 @@
   Smart Contracts para Rastreamento da Agricultura Familiar
 </h2>
 <hr/>
-<h1 align="left">Objetivo:</h1>
+<h2 align="left">Objetivos</h2>
 <p>
 
 O nosso objetivo geral é desenvolver uma solução de rastreamento de produtos da agricultura familiar baseada em blockchains e tokens em acordo com a INC 02/2018. Delineamos três objetivos específicos:
@@ -20,7 +20,7 @@ O nosso objetivo geral é desenvolver uma solução de rastreamento de produtos 
 
 </p>
 
-<h2>Equipe: </h2>
+<h2>Equipe </h2>
 <img src="./img/equipe-dev.png" alt="Equipe de desenvolvimento do projeto">
 <h2>Instituições: </h2>
 <div style="center">
@@ -39,7 +39,7 @@ O nosso objetivo geral é desenvolver uma solução de rastreamento de produtos 
    
 </div>
 
-<h2>Contatos: </h2>
+<h2>Contatos </h2>
 
 <a href="mailto:diegokreutz@unipampa.edu.br">
     Diego Kreutz
