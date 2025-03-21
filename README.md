@@ -29,9 +29,12 @@ Teste de blockchains para os contratos inteligentes do Proraf. Planejar, executa
 </table>
 </div>
 <h2>Arquitetura: </h2>
+<div style="center">
+   <img src="./img/arquitetura.png" alt="Arquitetura do projeto">
+   
+</div>
 
 <h2>Contatos: </h2>
-<img src="./img/arquitetura.png" alt="Arquitetura do projeto">
 
 <a href="mailto:diegokreutz@unipampa.edu.br">
     Diego Kreutz
