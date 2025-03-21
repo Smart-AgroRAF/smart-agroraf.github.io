@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body{
+    /* background: rgb(37,155,233);
+    background: linear-gradient(90deg, rgba(37,155,233,1) 0%, rgba(0,30,255,1) 35%, rgba(37,155,233,1) 100%); */
+}
+
+.animation-escape{
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+    /* font-size: 20px; */
+}
+.animation-escape:first-of-type { 
+    animation: showup 7s alternate;
+}
+
+.animation-escape:last-of-type {
+    width:0px;
+    animation: reveal 7s alternate;
+}
+
+.animation-escape:last-of-type span {
+    margin-left:-355px;
+    animation: slidein 7s alternate;
+}
+
+@keyframes showup {
+0% {opacity:0;}
+20% {opacity:1;}
+80% {opacity:1;}
+100% {opacity:0;}
+}
+
+@keyframes slidein {
+0% { margin-left:-800px; }
+20% { margin-left:-800px; }
+35% { margin-left:0px; }
+100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+0% {opacity:0;width:0px;}
+20% {opacity:1;width:0px;}
+30% {width:355px;}
+80% {opacity:1;}
+100% {opacity:0;width:355px;}
+}
+
+section {
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gradiente {
+    background: linear-gradient(to right, #662D91, #0D6EFD);
+}
+.institution {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    transition: all 0.3s ease;
+    width: 180px;
+    height: 100px;
+    
+}
+
+.institution img {
+    max-width: 100%; /* Para garantir que a imagem não ultrapasse o contêiner */
+    max-height: 100%; /* Ajusta o tamanho da imagem ao contêiner */
+}
+
+.institution:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 28px;
+}
