@@ -9,9 +9,14 @@
 <p>
 
 O nosso objetivo geral é desenvolver uma solução de rastreamento de produtos da agricultura familiar baseada em blockchains e tokens em acordo com a INC 02/2018 para o Proraf. Delineamos três objetivos específicos:
-Projeto de contratos inteligentes para o Proraf. Projetar os contratos inteligentes considerando as necessidades de tokenização e rastreabilidade.
-Implementação de contratos inteligentes no Proraf. Acoplar o sistema de informação do Proraf à blockchain. Esta etapa envolve atividades de análise, projeto, implementação e testes de interface de usuário conectadas ao Hyperledger Besu disponibilizado na infraestrutura desenvolvida no contexto do projeto Ilíada.
-Teste de blockchains para os contratos inteligentes do Proraf. Planejar, executar e analisar resultados de avaliação sistemática de alternativas de blockchain como substrato para a solução proposta. São previstas avaliação das redes Hyperledger Besu e Ethereum considerando métricas de custo, tempo de inserção,  taxa de transações por segundo (TPS) e usabilidade. Os resultados fornecerão subsídios técnicos e econômicos concretos para avaliar a viabilidade prática e a escalabilidade da solução, fundamentando um estudo econômico para um futuro MVP.
+<ol>
+   <li>Projeto de contratos inteligentes para o Proraf. Projetar os contratos inteligentes considerando as necessidades de tokenização e rastreabilidade. </li>
+   <li> Implementação de contratos inteligentes no Proraf. Acoplar o sistema de informação do Proraf à blockchain. Esta etapa envolve atividades de análise, projeto, implementação e testes de interface de usuário conectadas ao Hyperledger Besu disponibilizado na infraestrutura desenvolvida no contexto do projeto Ilíada.</li>
+   <li>Teste de blockchains para os contratos inteligentes do Proraf. Planejar, executar e analisar resultados de avaliação sistemática de alternativas de blockchain como substrato para a solução proposta. São previstas avaliação das redes Hyperledger Besu e Ethereum considerando métricas de custo, tempo de inserção,  taxa de transações por segundo (TPS) e usabilidade. Os resultados fornecerão subsídios técnicos e econômicos concretos para avaliar a viabilidade prática e a escalabilidade da solução, fundamentando um estudo econômico para um futuro MVP.</li>
+</ol>
+
+
+
 
 </p>
 
